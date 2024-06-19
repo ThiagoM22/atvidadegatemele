@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  border: 0;
+  outline: 0;
+}
+
+#sup {
+  background: rgb(50, 50, 50);
+  color: #fff;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 60px;
+  padding-top: 20px;
+}
+
+#box {
+  width: 100%;
+  max-width: 450px;
+  margin: 150px auto 0px;
+  padding: 0px 24px;
+  text-align: center;
+  background: #ede3e68e;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40cap;
+  padding-top: 30px;
+}
+#box p {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+#rosa {
+  margin: 10px auto 10px;
+  background: #e35486;
+  height: 3.5px;
+  width: 40px;
+  border-radius: 10px;
+}
+#NS {
+  margin: 15px auto 0px;
+  display: flex;
+  align-items: start;
+  justify-items: center;
+}
+#NS input {
+  height: 30px;
+  width: 150px;
+  margin: 15px 25px 10px;
+}
+#NS p {
+  text-align: left;
+  margin: 0px 25px 0px;
+  font-size: 12px;
+  color: rgb(90, 90, 90);
+}
+#ES {
+  text-align: left;
+  margin: 0px 25px 0px;
+}
+#ES input {
+  width: 350px;
+  height: 30px;
+  margin: 0px 0px 20px;
+}
+#ES p {
+  margin: 0px 1px 10px;
+  color: rgb(90, 90, 90);
+}
+#button button {
+  margin: 30px auto 0px;
+  width: 150px;
+  height: 40px;
+  font-size: 10px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  background: #e35486;
+}
+#footer {
+  background: #ede3e68e;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 50px;
+  display: flex
+}
+
+#footer a{
+    color: #e35486;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 10px 80px 0px;
+}
